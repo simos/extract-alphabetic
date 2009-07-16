@@ -63,9 +63,7 @@ def process_unicodedata():
         sys.exit(-1)
 
     """ Parse the UnicodeData.txt file """
-    linenum_unicodedatatxt = 0
     for line in unicodedatatxt.readlines():
-        linenum_unicodedatatxt += 1
         line = line.strip()
         components = split(';', line)
 
