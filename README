@@ -1,0 +1,8 @@
+extract-alphabetic.py
+
+Parses Unicode-data.txt and creates a table for alphabetic characters, those
+characters that are part of a lowercase-uppercase pair.
+
+Run as
+
+./extract-alphabetic.py
